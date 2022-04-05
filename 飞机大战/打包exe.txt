@@ -1,0 +1,8 @@
+1.安装 pyinstaller
+2.首先通过cmd命令行进入主程序的同级目录
+3.然后输入命令: pyinstaller -F 主程序名(带后缀.py)
+#  completed successfully.表示打包成功
+
+# 不想要黑窗口:pyinstaller -F -w 主程序名(带后缀.py)
+4.将images文件放入刚生成的dist文件夹中
+5.打开dist文件夹中的plane_start.exe，就可以玩了
